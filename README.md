@@ -19,4 +19,9 @@ I will divide this into sections, I think:
 I think, again. Otherwise, this is assumed to be Minecraft release 2.0 in another timeline. It's not really a 2.0 but I'm not calling it 1.8. And it'll be called the Update that Saved the World.
 
 
-*** Pulls from """""Java Edition""""" ***
+## Pulls from """""Java Edition"""""
+
+I might be elitist, but it's not like everything new is bad.
+
+### 1.8
+
