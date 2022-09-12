@@ -1,24 +1,25 @@
 package mof.minecraft2.client.render;
 
-import org.lwjgl.opengl.GL11;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import mof.minecraft2.entities.EntityBabyCreeper;
+import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
-import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;
-import mof.minecraft2.client.models.entities.ModelBabyCreeper;
-import mof.minecraft2.entities.EntityBabyCreeper;
+import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
 public class RenderBabyCreeper extends RenderLiving
 {
     private static final ResourceLocation TEXTURE = new ResourceLocation("minecraft2", "textures/entities/baby_creeper.png");
-
-    public RenderBabyCreeper(RenderManager renderManagerIn)
+    protected ResourceLocation BabyCreeperTexture;
+    public RenderBabyCreeper(ModelBase par1ModelBase, float parShadowSize) //RenderManager renderManagerIn)
     {
-        super(new ModelBabyCreeper(), 0.5F);
+        //super(new ModelBabyCreeper(), 0.5F);
+        super(par1ModelBase, parShadowSize);
+        setEntityTexture();
         //this.addLayer(new LayerCreeperCharge(this));
     }
 
@@ -49,6 +50,13 @@ public class RenderBabyCreeper extends RenderLiving
             return i << 24 | 822083583;
         }
     }
+
+    protected void setEntityTexture()
+    {
+        BabyCreeperTexture = new ResourceLocation("minecraft2:textures/entities/BabyCreeper.png");
+
+    }
+
 
     protected ResourceLocation getEntityTexture(Entity entity)
     {

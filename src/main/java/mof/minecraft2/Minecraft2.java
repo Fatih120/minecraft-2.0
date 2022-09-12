@@ -1,5 +1,6 @@
 package mof.minecraft2;
 
+import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -7,6 +8,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import mof.minecraft2.blocks.AlmondBlock;
+import mof.minecraft2.client.models.entities.ModelBabyCreeper;
+import mof.minecraft2.client.render.RenderBabyCreeper;
 import mof.minecraft2.entities.EntityBabyCreeper;
 import mof.minecraft2.items.Almond;
 import net.minecraft.block.Block;
@@ -38,6 +41,9 @@ public class Minecraft2
 
         EntityRegistry.registerGlobalEntityID(EntityBabyCreeper.class, "BabyCreeper", EntityRegistry.findGlobalUniqueEntityId());
         EntityRegistry.registerModEntity(EntityBabyCreeper.class, "BabyCreeper", EntityRegistry.findGlobalUniqueEntityId(), Minecraft2.instance, 64, 3, false);
+        RenderingRegistry.registerEntityRenderingHandler(EntityBabyCreeper.class, new RenderBabyCreeper(new ModelBabyCreeper(), 0.5F));
+
+
 
     }
 
