@@ -1,9 +1,9 @@
 # minecraft-2.0
-Me being elitist about Minecraft (not a real code repo)
+Me being elitist about Minecraft (NOW a real code repo??????? probably not lol)
 
 This is a theoretical branch off of Minecraft release 1.7.10 released in like, what, 2014? It's been too long... Especially right after my candle day!
 
-The lore is that Notch got his character development and allowed himself to get a little more greedy and ended up telling Microsoft to buzz off. And then randomly hired me to be lead planner, like I was some random slobbering twitterite who begged to join despite having zero social skills or employment history and a liberal arts degree.
+The lore is that Notch got his character development and allowed himself to get a little more greedy and ended up telling Microsoft to buzz off. And then randomly hired me to be lead planner, like I was some random slobbering twitterite who begged to join despite having zero social skills or talents.
 
 I will divide this into sections, I think:
 
@@ -25,3 +25,7 @@ I might be elitist, but it's not like everything new is bad.
 
 ### 1.8
 
+### Post
+
+  - Candles are cool
+  - the new goats look interesting

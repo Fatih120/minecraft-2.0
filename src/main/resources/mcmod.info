@@ -1,0 +1,16 @@
+[
+{
+  "modid": "minecraft2",
+  "name": "Minecraft 2.0",
+  "description": "A fork of sorts for 1.7.10, with quality of life improvements and things that could have been.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Fatih"],
+  "credits": "The Forge and FML guys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
